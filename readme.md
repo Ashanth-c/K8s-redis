@@ -22,3 +22,17 @@ Ce fichier service permet d'indiquer les ports de connexion du pod créé avec l
 
 redis : redis-ac
 serveur redis : ac-redis-serveur
+
+# Bonus
+
+## Etape 1 Creer un Dockerfile pour l'application react
+
+Utiliser la commande docker build -t reactapp ./bonus/redis-react 
+
+## Etape 2 Creer un fichier deployment.yaml
+
+ici notre fichier deployment s'appelle deployment_react_ashanth.yaml et ce trouve au même endroit que le Dockerfile
+
+## Etape 3 Creer un fichier service.yaml
+
+ici notre fichier deployment s'appelle service_react_ashanth.yaml et ce trouve au même endroit que le Dockerfile
