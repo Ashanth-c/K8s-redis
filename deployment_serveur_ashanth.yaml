@@ -23,6 +23,6 @@ spec:
         - containerPort: 4000
         env:
         - name: PORT
-          value: "6379"
+          value: "4000"
         - name: REDIS_URL
           value: "redis://10.2.4.2"
