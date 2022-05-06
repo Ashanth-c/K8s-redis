@@ -17,3 +17,8 @@ Ce fichier service permet d'indiquer les ports de connexion du pod créé avec l
 ## service_serveur-ashanth.yaml
 
 Ce fichier service permet d'indiquer les ports de connexion du pod créé avec le deployment_redis_ac.yaml
+
+## Nom des pods
+
+redis : redis-ac
+serveur redis : ac-redis-serveur
