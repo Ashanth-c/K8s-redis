@@ -25,4 +25,4 @@ spec:
         - name: PORT
           value: "4000"
         - name: REDIS_URL
-          value: "redis://10.2.4.2"
+          value: "redis://10.2.4.2:6379"
