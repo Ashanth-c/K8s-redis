@@ -1,0 +1,21 @@
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: ashanth-react-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ashanth-react-app
+  template:
+    metadata:
+      labels:
+        app: ashanth-react-app
+    spec:
+      containers:
+        - name: ashanth-react-app
+          image: reactapp
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 80
+      restartPolicy: Always
